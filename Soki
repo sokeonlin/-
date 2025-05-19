@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سوقي - كل شيء في مكان واحد</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      direction: rtl;
+    }
+    header {
+      background-color: #ff6f00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #ffe0b2;
+      padding: 40px;
+      text-align: center;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .category, .product {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .products {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>سوقي</h1>
+    <p>كل شيء في مكان واحد</p>
+  </header>
+
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">المنتجات</a>
+    <a href="#">العروض</a>
+    <a href="#">تواصل معنا</a>
+  </nav>
+
+  <div class="hero">
+    <h2>اكتشف أفضل العروض لهذا الأسبوع!</h2>
+    <p>منتجات متنوعة بأسعار تنافسية</p>
+  </div>
+
+  <فئة القسم ="الفئات">
+    <div class="category">إلكترونيات</div>
+    <div class="category">ملابس</div>
+    <div class="category">ألعاب</div>
+    <div class="category">مطبخ</div>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <h3>هاتف ذكي</h3>
+      <p>سعر: 1200 ريال</p>
+    </div>
+    <div class="product">
+      <h3>قميص رجالي</h3>
+      <p>سعر: 80 ريال</p>
+    </div>
+    <div class="product">
+      <h3>لعبة أطفال</h3>
+      <p>سعر: 50 ريال</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 سوقي. جميع الحقوق محفوظة.</p>
+  </footer>
+
+</body>
+</HTML>
